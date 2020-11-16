@@ -1,0 +1,6 @@
+framework module Pods_coupleLife {
+  umbrella header "Pods-coupleLife-umbrella.h"
+
+  export *
+  module * { export * }
+}

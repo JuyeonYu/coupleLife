@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B38A09D25EF5E44BD461A93 /* Pods_coupleLife_coupleLifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B248D5B3CD4443F635111ED /* Pods_coupleLife_coupleLifeUITests.framework */; };
+		B543739425626ECD0052A519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543739325626ECD0052A519 /* AppDelegate.swift */; };
+		B543739625626ECD0052A519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543739525626ECD0052A519 /* SceneDelegate.swift */; };
+		B543739825626ECD0052A519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543739725626ECD0052A519 /* ViewController.swift */; };
+		B543739B25626ECD0052A519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B543739925626ECD0052A519 /* Main.storyboard */; };
+		B543739D25626ECE0052A519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B543739C25626ECE0052A519 /* Assets.xcassets */; };
+		B54373A025626ECE0052A519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B543739E25626ECE0052A519 /* LaunchScreen.storyboard */; };
+		B54373AB25626ECE0052A519 /* coupleLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54373AA25626ECE0052A519 /* coupleLifeTests.swift */; };
+		B54373B625626ECE0052A519 /* coupleLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54373B525626ECE0052A519 /* coupleLifeUITests.swift */; };
+		C3D9DD7739F4F8495465CEBA /* Pods_coupleLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F00209026304730F836BA02 /* Pods_coupleLifeTests.framework */; };
+		FBDFD525D9B414D462203B5E /* Pods_coupleLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36648C32D20FCDE709CF384 /* Pods_coupleLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54373A725626ECE0052A519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B543738825626ECD0052A519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B543738F25626ECD0052A519;
+			remoteInfo = coupleLife;
+		};
+		B54373B225626ECE0052A519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B543738825626ECD0052A519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B543738F25626ECD0052A519;
+			remoteInfo = coupleLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2CF96B7CB8F9465F37B997 /* Pods-coupleLife-coupleLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLife-coupleLifeUITests.debug.xcconfig"; path = "Target Support Files/Pods-coupleLife-coupleLifeUITests/Pods-coupleLife-coupleLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B248D5B3CD4443F635111ED /* Pods_coupleLife_coupleLifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coupleLife_coupleLifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F12CE5AA2D09FDD8B96E74 /* Pods-coupleLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLife.debug.xcconfig"; path = "Target Support Files/Pods-coupleLife/Pods-coupleLife.debug.xcconfig"; sourceTree = "<group>"; };
+		71F7EF2EBD0E7FDCE6F9253D /* Pods-coupleLife-coupleLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLife-coupleLifeUITests.release.xcconfig"; path = "Target Support Files/Pods-coupleLife-coupleLifeUITests/Pods-coupleLife-coupleLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F00209026304730F836BA02 /* Pods_coupleLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coupleLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954DC72279A4BCB416799D9C /* Pods-coupleLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLifeTests.release.xcconfig"; path = "Target Support Files/Pods-coupleLifeTests/Pods-coupleLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		99C40A790DD07D64242AB96A /* Pods-coupleLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLifeTests.debug.xcconfig"; path = "Target Support Files/Pods-coupleLifeTests/Pods-coupleLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A97376EABEB63EE8D1D99C2D /* Pods-coupleLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coupleLife.release.xcconfig"; path = "Target Support Files/Pods-coupleLife/Pods-coupleLife.release.xcconfig"; sourceTree = "<group>"; };
+		B543739025626ECD0052A519 /* coupleLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coupleLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B543739325626ECD0052A519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B543739525626ECD0052A519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B543739725626ECD0052A519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B543739A25626ECD0052A519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B543739C25626ECE0052A519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B543739F25626ECE0052A519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54373A125626ECE0052A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54373A625626ECE0052A519 /* coupleLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coupleLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54373AA25626ECE0052A519 /* coupleLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coupleLifeTests.swift; sourceTree = "<group>"; };
+		B54373AC25626ECE0052A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54373B125626ECE0052A519 /* coupleLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coupleLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54373B525626ECE0052A519 /* coupleLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coupleLifeUITests.swift; sourceTree = "<group>"; };
+		B54373B725626ECE0052A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36648C32D20FCDE709CF384 /* Pods_coupleLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coupleLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B543738D25626ECD0052A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFD525D9B414D462203B5E /* Pods_coupleLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373A325626ECE0052A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D9DD7739F4F8495465CEBA /* Pods_coupleLifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373AE25626ECE0052A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B38A09D25EF5E44BD461A93 /* Pods_coupleLife_coupleLifeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EA0ACCCA7964435E3ED0AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64F12CE5AA2D09FDD8B96E74 /* Pods-coupleLife.debug.xcconfig */,
+				A97376EABEB63EE8D1D99C2D /* Pods-coupleLife.release.xcconfig */,
+				2A2CF96B7CB8F9465F37B997 /* Pods-coupleLife-coupleLifeUITests.debug.xcconfig */,
+				71F7EF2EBD0E7FDCE6F9253D /* Pods-coupleLife-coupleLifeUITests.release.xcconfig */,
+				99C40A790DD07D64242AB96A /* Pods-coupleLifeTests.debug.xcconfig */,
+				954DC72279A4BCB416799D9C /* Pods-coupleLifeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B543738725626ECD0052A519 = {
+			isa = PBXGroup;
+			children = (
+				B543739225626ECD0052A519 /* coupleLife */,
+				B54373A925626ECE0052A519 /* coupleLifeTests */,
+				B54373B425626ECE0052A519 /* coupleLifeUITests */,
+				B543739125626ECD0052A519 /* Products */,
+				82EA0ACCCA7964435E3ED0AD /* Pods */,
+				BB730ED4CF20671666C1A903 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B543739125626ECD0052A519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B543739025626ECD0052A519 /* coupleLife.app */,
+				B54373A625626ECE0052A519 /* coupleLifeTests.xctest */,
+				B54373B125626ECE0052A519 /* coupleLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B543739225626ECD0052A519 /* coupleLife */ = {
+			isa = PBXGroup;
+			children = (
+				B543739325626ECD0052A519 /* AppDelegate.swift */,
+				B543739525626ECD0052A519 /* SceneDelegate.swift */,
+				B543739725626ECD0052A519 /* ViewController.swift */,
+				B543739925626ECD0052A519 /* Main.storyboard */,
+				B543739C25626ECE0052A519 /* Assets.xcassets */,
+				B543739E25626ECE0052A519 /* LaunchScreen.storyboard */,
+				B54373A125626ECE0052A519 /* Info.plist */,
+			);
+			path = coupleLife;
+			sourceTree = "<group>";
+		};
+		B54373A925626ECE0052A519 /* coupleLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54373AA25626ECE0052A519 /* coupleLifeTests.swift */,
+				B54373AC25626ECE0052A519 /* Info.plist */,
+			);
+			path = coupleLifeTests;
+			sourceTree = "<group>";
+		};
+		B54373B425626ECE0052A519 /* coupleLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54373B525626ECE0052A519 /* coupleLifeUITests.swift */,
+				B54373B725626ECE0052A519 /* Info.plist */,
+			);
+			path = coupleLifeUITests;
+			sourceTree = "<group>";
+		};
+		BB730ED4CF20671666C1A903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36648C32D20FCDE709CF384 /* Pods_coupleLife.framework */,
+				3B248D5B3CD4443F635111ED /* Pods_coupleLife_coupleLifeUITests.framework */,
+				7F00209026304730F836BA02 /* Pods_coupleLifeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B543738F25626ECD0052A519 /* coupleLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54373BA25626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLife" */;
+			buildPhases = (
+				86EB8A8B6C4B8B22F85A062A /* [CP] Check Pods Manifest.lock */,
+				B543738C25626ECD0052A519 /* Sources */,
+				B543738D25626ECD0052A519 /* Frameworks */,
+				B543738E25626ECD0052A519 /* Resources */,
+				A3F67C220E4646EA3A5C1ACB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coupleLife;
+			productName = coupleLife;
+			productReference = B543739025626ECD0052A519 /* coupleLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54373A525626ECE0052A519 /* coupleLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54373BD25626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLifeTests" */;
+			buildPhases = (
+				7805E2F5705559E938CF44F5 /* [CP] Check Pods Manifest.lock */,
+				B54373A225626ECE0052A519 /* Sources */,
+				B54373A325626ECE0052A519 /* Frameworks */,
+				B54373A425626ECE0052A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54373A825626ECE0052A519 /* PBXTargetDependency */,
+			);
+			name = coupleLifeTests;
+			productName = coupleLifeTests;
+			productReference = B54373A625626ECE0052A519 /* coupleLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54373B025626ECE0052A519 /* coupleLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54373C025626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLifeUITests" */;
+			buildPhases = (
+				2E36CD108A2C94BF67D67007 /* [CP] Check Pods Manifest.lock */,
+				B54373AD25626ECE0052A519 /* Sources */,
+				B54373AE25626ECE0052A519 /* Frameworks */,
+				B54373AF25626ECE0052A519 /* Resources */,
+				6618E1AE7B9CCA517BDA8E60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54373B325626ECE0052A519 /* PBXTargetDependency */,
+			);
+			name = coupleLifeUITests;
+			productName = coupleLifeUITests;
+			productReference = B54373B125626ECE0052A519 /* coupleLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B543738825626ECD0052A519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B543738F25626ECD0052A519 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					B54373A525626ECE0052A519 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B543738F25626ECD0052A519;
+					};
+					B54373B025626ECE0052A519 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B543738F25626ECD0052A519;
+					};
+				};
+			};
+			buildConfigurationList = B543738B25626ECD0052A519 /* Build configuration list for PBXProject "coupleLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B543738725626ECD0052A519;
+			productRefGroup = B543739125626ECD0052A519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B543738F25626ECD0052A519 /* coupleLife */,
+				B54373A525626ECE0052A519 /* coupleLifeTests */,
+				B54373B025626ECE0052A519 /* coupleLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B543738E25626ECD0052A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54373A025626ECE0052A519 /* LaunchScreen.storyboard in Resources */,
+				B543739D25626ECE0052A519 /* Assets.xcassets in Resources */,
+				B543739B25626ECD0052A519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373A425626ECE0052A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373AF25626ECE0052A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E36CD108A2C94BF67D67007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coupleLife-coupleLifeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6618E1AE7B9CCA517BDA8E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupleLife-coupleLifeUITests/Pods-coupleLife-coupleLifeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupleLife-coupleLifeUITests/Pods-coupleLife-coupleLifeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coupleLife-coupleLifeUITests/Pods-coupleLife-coupleLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7805E2F5705559E938CF44F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coupleLifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EB8A8B6C4B8B22F85A062A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coupleLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F67C220E4646EA3A5C1ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupleLife/Pods-coupleLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coupleLife/Pods-coupleLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coupleLife/Pods-coupleLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B543738C25626ECD0052A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B543739825626ECD0052A519 /* ViewController.swift in Sources */,
+				B543739425626ECD0052A519 /* AppDelegate.swift in Sources */,
+				B543739625626ECD0052A519 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373A225626ECE0052A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54373AB25626ECE0052A519 /* coupleLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54373AD25626ECE0052A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54373B625626ECE0052A519 /* coupleLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54373A825626ECE0052A519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B543738F25626ECD0052A519 /* coupleLife */;
+			targetProxy = B54373A725626ECE0052A519 /* PBXContainerItemProxy */;
+		};
+		B54373B325626ECE0052A519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B543738F25626ECD0052A519 /* coupleLife */;
+			targetProxy = B54373B225626ECE0052A519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B543739925626ECD0052A519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B543739A25626ECD0052A519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B543739E25626ECE0052A519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B543739F25626ECE0052A519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B54373B825626ECE0052A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B54373B925626ECE0052A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54373BB25626ECE0052A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F12CE5AA2D09FDD8B96E74 /* Pods-coupleLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Johnny can do everything";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54373BC25626ECE0052A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97376EABEB63EE8D1D99C2D /* Pods-coupleLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Johnny can do everything";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B54373BE25626ECE0052A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C40A790DD07D64242AB96A /* Pods-coupleLifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.coupleLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupleLife.app/coupleLife";
+			};
+			name = Debug;
+		};
+		B54373BF25626ECE0052A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954DC72279A4BCB416799D9C /* Pods-coupleLifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.coupleLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coupleLife.app/coupleLife";
+			};
+			name = Release;
+		};
+		B54373C125626ECE0052A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2CF96B7CB8F9465F37B997 /* Pods-coupleLife-coupleLifeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.coupleLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coupleLife;
+			};
+			name = Debug;
+		};
+		B54373C225626ECE0052A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F7EF2EBD0E7FDCE6F9253D /* Pods-coupleLife-coupleLifeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUV8UP2WXU;
+				INFOPLIST_FILE = coupleLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.coupleLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coupleLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B543738B25626ECD0052A519 /* Build configuration list for PBXProject "coupleLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54373B825626ECE0052A519 /* Debug */,
+				B54373B925626ECE0052A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54373BA25626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54373BB25626ECE0052A519 /* Debug */,
+				B54373BC25626ECE0052A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54373BD25626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54373BE25626ECE0052A519 /* Debug */,
+				B54373BF25626ECE0052A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54373C025626ECE0052A519 /* Build configuration list for PBXNativeTarget "coupleLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54373C125626ECE0052A519 /* Debug */,
+				B54373C225626ECE0052A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B543738825626ECD0052A519 /* Project object */;
+}
